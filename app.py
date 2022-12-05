@@ -32,7 +32,7 @@ movies = pd.DataFrame(movies_dict)
 similarity = pickle.load(open('similarity.pkl','rb'))
 
 selected_movie = st.selectbox(
-    "Type or select a movie from the dropdown" ,
+    "Select a movie from the dropdown" ,
     movies['title'].values
 )
 
